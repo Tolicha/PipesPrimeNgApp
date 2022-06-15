@@ -1,6 +1,7 @@
 # PipesApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+This project objective is to try differents Pipes (https://angular.io/api?query=pipe) and use PrimeNg Templates (https://www.primefaces.org/primeng/)
 
 ## Development server
 
