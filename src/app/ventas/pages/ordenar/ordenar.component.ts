@@ -10,6 +10,7 @@ import { Color, Heroe } from '../../interfaces/ventas.interface';
 export class OrdenarComponent implements OnInit {
 
   enMayusculas: boolean = true;
+  ordenarPor: string = '';
 
   heroes: Heroe [] = [
     {
@@ -53,5 +54,9 @@ export class OrdenarComponent implements OnInit {
     //   this.enMayusculas = true;
     //  }
     //  return this.enMayusculas;
+  }
+
+  cambiarOrden( valor: string){
+    this.ordenarPor = valor;
   }
 }
